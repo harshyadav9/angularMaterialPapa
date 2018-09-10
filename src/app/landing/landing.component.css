@@ -1,0 +1,47 @@
+.toolbarStyle{
+    margin:auto;
+    width:90%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.list-item-group{
+    border: 1px solid rgba(0,0,0,.125);
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+}
+
+.list-item-group a{
+    text-decoration: none;
+}
+
+.list-style{
+    list-style: none;
+    padding:0;
+    margin:10px;
+}
+
+.prospectus{
+    width: 60%;
+    border: 2px solid #00000082;
+    margin: 16px;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #b7aeae;
+    border-radius: 7px;
+    width: 63%;
+    margin: 9px;
+}
+
+.main__layout{
+    display:flex;flex-direction: row;
+}
+
+@media screen and (max-width: 900px){
+    .main__layout{
+        flex-direction: column;
+    }
+}
